@@ -34,6 +34,27 @@
   min-width: 0;
 }
 
+.navbar-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navbar-link {
+  color: var(--global-text-color);
+  font-weight: 400;
+  padding: 0 0.75rem;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: var(--global-hover-color);
+    text-decoration: none;
+  }
+}
+
 .navbar .dropdown-menu,
 .btn-group.dropdown .dropdown-menu {
   background-color: var(--global-bg-color);
@@ -81,32 +102,12 @@
   .navbar-brand {
     color: var(--global-text-color);
     margin-right: 1.5rem;
-    font-weight: 400;
+    font-weight: bold;
   }
 
   .navbar-brand-empty {
     margin-right: auto;
     padding: 0;
-  }
-
-  .navbar-nav .nav-link {
-    color: var(--global-text-color);
-    font-weight: 400;
-    transition: color 0.2s ease-in-out;
-
-    &:hover {
-      color: var(--global-hover-color);
-    }
-  }
-
-  .navbar-nav .nav-item.active > .nav-link {
-    background-color: inherit;
-    font-weight: bolder;
-    color: var(--global-theme-color);
-
-    &:hover {
-      color: var(--global-hover-color);
-    }
   }
 
   .navbar-brand.social {
@@ -226,12 +227,14 @@
   }
 
   .navbar-links {
-    margin-left: 0 !important;
+    margin-left: 0;
     margin-top: 0.35rem;
+    justify-content: flex-start;
   }
 
-  .navbar.navbar-light .navbar-nav .nav-link {
-    padding-left: 0 !important;
+  .navbar-link {
+    padding-left: 0;
+    padding-right: 1rem;
   }
 }
 
