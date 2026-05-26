@@ -22,9 +22,9 @@ I am a graduate student pursuing my PhD in computer science at [Purdue Universit
 
 <h4 id="publications"><strong>Publications</strong></h4>
 
-[The Yes-Man Syndrome: Benchmarking Abstention in Embodied Robotic Agents](https://arxiv.org/abs/2605.20544)  
+<!-- [The Yes-Man Syndrome: Benchmarking Abstention in Embodied Robotic Agents](https://arxiv.org/abs/2605.20544)  
 Doguhan Yeke\*, Elif Su Temirel\*, Ananth Shreekumar\*, Brandon Lee, Dongyan Xu, and Z. Berkay Celik  
-_arXiv preprint arxiv:2605.20544_. 2026.
+_arXiv preprint arxiv:2605.20544_. 2026. -->
 
 [Formalizing the Safety, Security, and Functional Properties of Agentic AI Systems](https://arxiv.org/abs/2510.14133)  
 Edoardo Allegrini, Ananth Shreekumar, and Z. Berkay Celik  
