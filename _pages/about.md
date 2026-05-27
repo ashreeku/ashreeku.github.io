@@ -11,7 +11,7 @@ profile:
   image_circular: false
   more_info: >
     <p class="profile-name">Ananth Shreekumar</p>
-    <p>PhD Candidate</p>
+    <p>PhD Student</p>
     <p>Department&nbsp;of&nbsp;Computer&nbsp;Science</p>
     <p>Purdue University</p>
 ---
