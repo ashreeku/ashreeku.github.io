@@ -11,62 +11,106 @@ profile:
   image_circular: false
   more_info: >
     <p class="profile-name">Ananth Shreekumar</p>
-    <p>PhD Student</p>
+    <p>PhD student <span class="profile-context">in the</span></p>
     <p>Department&nbsp;of&nbsp;Computer&nbsp;Science</p>
-    <p>Purdue University</p>
+    <p><span class="profile-context">at</span> Purdue University</p>
 ---
 
-I am a graduate student pursuing my PhD in computer science at [Purdue University, West Lafayette](https://www.purdue.edu/). I am advised by [Z.&nbsp;Berkay&nbsp;Celik](https://www.cs.purdue.edu/people/faculty/zcelik.html) and [Dongyan&nbsp;Xu](https://www.cs.purdue.edu/people/faculty/dxu.html). Before that, I obtained my master of science in computer science degree also at Purdue and an integrated master of technology degree in computer science at the [International Institute of Information Technology Bangalore](https://www.iiitb.ac.in/).
-<br>
-<br>
+I am a PhD student in computer science at [Purdue University, West Lafayette](https://www.purdue.edu/), advised by [Z.&nbsp;Berkay&nbsp;Celik](https://www.cs.purdue.edu/people/faculty/zcelik.html) and [Dongyan&nbsp;Xu](https://www.cs.purdue.edu/people/faculty/dxu.html). I am a member of the [PurSec Lab](https://pursec.cs.purdue.edu/). Previously, I earned a master's degree in computer science from Purdue and an integrated master of technology degree in computer science from the [International Institute of Information Technology Bangalore](https://www.iiitb.ac.in/).
 
-<h4 id="publications"><strong>Publications</strong></h4>
+<h4 id="publications" class="section-heading"><strong>Publications</strong></h4>
+
+[A Self-Explainable Deep Architecture for Security Applications](https://arxiv.org/abs/2608.05552)  
+<span class="publication-self">Ananth Shreekumar</span>, JyunJhu Syu, Muslum Ozgur Ozmen, Dongyan Xu, and Z. Berkay Celik  
+<span class="publication-venue"><em>Conference on Game Theory and AI for Security</em>. 2026.</span>
 
 [The Yes-Man Syndrome: Benchmarking Abstention in Embodied Robotic Agents](https://arxiv.org/abs/2605.20544)  
-Doguhan Yeke\*, Elif Su Temirel\*, Ananth Shreekumar\*, Brandon Lee, Dongyan Xu, and Z. Berkay Celik  
-_arXiv preprint arxiv:2605.20544_. 2026.
+Doguhan Yeke\*, Elif Su Temirel\*, <span class="publication-self">Ananth Shreekumar</span>\*, Brandon Lee, Dongyan Xu, and Z. Berkay Celik  
+<span class="publication-venue"><em>arXiv preprint arXiv:2605.20544</em>. 2026.</span>
+
+[Stable GFlowNets with TV Monitoring and Probabilistic Guarantees](https://arxiv.org/abs/2605.01729)  
+Zengxiang Lei, <span class="publication-self">Ananth Shreekumar</span>, Jonathan Rosenthal, Ruoyu Song, Alvaro A. Cardenas, Daniel J. Fremont, Dongyan Xu, Satish Ukkusuri, and Z. Berkay Celik  
+<span class="publication-venue"><em>arXiv preprint arXiv:2605.01729</em>. 2026.</span>
 
 [Formalizing the Safety, Security, and Functional Properties of Agentic AI Systems](https://arxiv.org/abs/2510.14133)  
-Edoardo Allegrini, Ananth Shreekumar, and Z. Berkay Celik  
-_Agents in the Wild: Safety, Security, and Beyond Workshop, International Conference on Learning Representations_. 2026.
+Edoardo Allegrini, <span class="publication-self">Ananth Shreekumar</span>, and Z. Berkay Celik  
+<span class="publication-venue"><em>Agents in the Wild: Safety, Security, and Beyond Workshop, International Conference on Learning Representations</em>. 2026.</span>
 
 [Investigating the Impact of Dark Patterns on LLM-Based Web Agents](https://arxiv.org/abs/2510.18113)  
-Brandon Lee\*, Devin Ersoy\*, Ananth Shreekumar, Arjun Arunasalam, Muhammad Ibrahim, Antonio Bianchi, and Z. Berkay Celik  
-_IEEE Symposium on Security and Privacy_. 2026.
+Brandon Lee\*, Devin Ersoy\*, <span class="publication-self">Ananth Shreekumar</span>, Arjun Arunasalam, Muhammad Ibrahim, Antonio Bianchi, and Z. Berkay Celik  
+<span class="publication-venue"><em>IEEE Symposium on Security and Privacy</em>. 2026.</span>
 
-[Improving Sepsis Prediction in Intensive Care with SepsisAI: A Clinical Decision support system with a focus on minimizing false alarms](https://doi.org/10.1371/journal.pdig.0000569)  
-Ankit Gupta, Ruchi Chauhan, Saravanan G, and Ananth Shreekumar  
-_PLOS Digital Health_. 2024.
+[Adaptive Blockwise Search: Inference-Time Alignment for Large Language Models](https://arxiv.org/abs/2510.23334)  
+Mohammad Atif Quamar\*, Mohammad Areeb\*, Nishant Sharma\*, <span class="publication-self">Ananth Shreekumar</span>, Jonathan Rosenthal, Muslum Ozgur Ozmen, Mikhail Kuznetsov, and Z. Berkay Celik  
+<span class="publication-venue"><em>arXiv preprint arXiv:2510.23334</em>. 2025.</span>
+
+[Improving Sepsis Prediction in Intensive Care with SepsisAI: A Clinical Decision Support System with a Focus on Minimizing False Alarms](https://doi.org/10.1371/journal.pdig.0000569)  
+Ankit Gupta, Ruchi Chauhan, Saravanan G., and <span class="publication-self">Ananth Shreekumar</span>  
+<span class="publication-venue"><em>PLOS Digital Health</em>. 2024.</span>
 
 [Incorporating Autonomous Bargaining Capabilities into E-Commerce Systems](https://doi.org/10.1145/3383652.3423865)  
-Ananth Shreekumar\*, Biswesh Mohapatra\*, and Shrisha Rao  
-_ACM International Conference on Intelligent Virtual Agents_. 2020.
+<span class="publication-self">Ananth Shreekumar</span>\*, Biswesh Mohapatra\*, and Shrisha Rao  
+<span class="publication-venue"><em>ACM International Conference on Intelligent Virtual Agents</em>. 2020.</span>
 
 [Towards Artifact Rejection in Microscopic Urinalysis](https://ashreeku.github.io/assets/pdf/nips_openset.pdf)  
-Tarun Dutt, GNS Prasanna, TR Dastidar, and Ananth Shreekumar  
-_Medical Imaging meets NeurIPS workshop, Neural Information Processing Systems_. 2019.
-<br>
-<br>
+Tarun Dutt, G.N. Srinivasa Prasanna, Tathagato Rai Dastidar, and <span class="publication-self">Ananth Shreekumar</span>  
+<span class="publication-venue"><em>Medical Imaging meets NeurIPS Workshop, Neural Information Processing Systems</em>. 2019.</span>
 
-<h4 id="service"><strong>Service</strong></h4>
+<p class="publication-note">* Equal contribution.</p>
 
-###### **Exernal Reviewer**
+<h4 id="service" class="section-heading"><strong>Service</strong></h4>
 
-SIGKDD&nbsp;(2026), NDSS&nbsp;(2025,&nbsp;2026), IEEE&nbsp;S&P&nbsp;(2025,&nbsp;2026), CCS&nbsp;(2025), NeurIPS&nbsp;(2025), AAAI&nbsp;(2026), ICLR&nbsp;(2026)
-<br>
-<br>
+###### **External Reviewer**
 
-<h4 id="teaching"><strong>Teaching</strong></h4>
+SIGKDD&nbsp;<span class="muted-meta">(2026,&nbsp;2027)</span>, NDSS&nbsp;<span class="muted-meta">(2025,&nbsp;2026)</span>, IEEE&nbsp;S&P&nbsp;<span class="muted-meta">(2025,&nbsp;2026)</span>, CCS&nbsp;<span class="muted-meta">(2025)</span>, NeurIPS&nbsp;<span class="muted-meta">(2025)</span>, AAAI&nbsp;<span class="muted-meta">(2026)</span>, ICLR&nbsp;<span class="muted-meta">(2026)</span>
+
+<h4 id="teaching" class="section-heading"><strong>Teaching</strong></h4>
 
 ###### **Graduate Teaching Assistant**
 
-CS361 Great Issues in Computer Science. Purdue University. Spring 2025.  
-CS529 Security Analytics. Purdue University. Fall 2024.  
-CS240 Programming in C. Purdue University. Fall 2023.  
-CS352 Compilers: Principles and Practice. Purdue University. Spring 2023.  
-MA165 Calculus I. Purdue University. Fall 2022.
+<div class="teaching-list">
+  <div class="teaching-item">
+    <span class="muted-meta teaching-code">CS361</span>
+    <span>Great Issues in Computer Science</span>
+    <span class="muted-meta teaching-term">Spring 2025</span>
+  </div>
+  <div class="teaching-item">
+    <span class="muted-meta teaching-code">CS529</span>
+    <span>Security Analytics</span>
+    <span class="muted-meta teaching-term">Fall 2024</span>
+  </div>
+  <div class="teaching-item">
+    <span class="muted-meta teaching-code">CS240</span>
+    <span>Programming in C</span>
+    <span class="muted-meta teaching-term">Fall 2023</span>
+  </div>
+  <div class="teaching-item">
+    <span class="muted-meta teaching-code">CS352</span>
+    <span>Compilers: Principles and Practice</span>
+    <span class="muted-meta teaching-term">Spring 2023</span>
+  </div>
+  <div class="teaching-item">
+    <span class="muted-meta teaching-code">MA165</span>
+    <span>Analytic Geometry and Calculus I</span>
+    <span class="muted-meta teaching-term">Fall 2022</span>
+  </div>
+</div>
 
 ###### **Guest Lecturer**
-CS197 Freshman Honors Seminar. Purdue University. Spring 2026.  
-CS529 Security Analytics. Purdue University. Fall 2025, Fall 2024.  
-CS361 Great Issues in Computer Science. Purdue University. Spring 2025.
+<div class="teaching-list">
+  <div class="teaching-item">
+    <span class="muted-meta teaching-code">CS197</span>
+    <span>Freshman Honors Seminar</span>
+    <span class="muted-meta teaching-term">Spring 2026</span>
+  </div>
+  <div class="teaching-item">
+    <span class="muted-meta teaching-code">CS529</span>
+    <span>Security Analytics</span>
+    <span class="muted-meta teaching-term">Fall 2025, Fall 2024</span>
+  </div>
+  <div class="teaching-item">
+    <span class="muted-meta teaching-code">CS361</span>
+    <span>Great Issues in Computer Science</span>
+    <span class="muted-meta teaching-term">Spring 2025</span>
+  </div>
+</div>

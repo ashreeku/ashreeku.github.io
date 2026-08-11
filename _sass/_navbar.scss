@@ -13,17 +13,17 @@
 
 .navbar-shell {
   width: 100%;
-  max-width: 1120px;
+  max-width: 1220px;
   margin: 0 auto;
   padding: 0 24px;
   font-weight: bold;
 }
 
 .navbar-track {
-  max-width: 986px;
+  max-width: 1186px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: minmax(0, 760px) 170px;
+  grid-template-columns: minmax(0, 920px) 210px;
   column-gap: 56px;
 }
 
@@ -44,7 +44,7 @@
 
 .navbar-link {
   color: var(--global-text-color);
-  font-weight: 400;
+  font-weight: bold;
   padding: 0 0.75rem;
   text-decoration: none;
   transition: color 0.2s ease-in-out;

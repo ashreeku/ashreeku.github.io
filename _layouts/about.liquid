@@ -2,46 +2,6 @@
 layout: default
 ---
 <div class="post">
-  <style>
-    .about-shell {
-      max-width: 1120px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
-
-    .about-columns {
-      display: flex;
-      align-items: flex-start;
-      justify-content: center;
-      gap: 56px;
-    }
-
-    .about-main {
-      flex: 1 1 auto;
-      min-width: 0;
-      max-width: 760px;
-    }
-
-    .about-side {
-      flex: 0 0 170px;
-      width: 170px;
-    }
-
-    @media (max-width: 767.98px) {
-      .about-shell {
-        padding: 0 16px;
-      }
-
-      .about-columns {
-        display: block;
-      }
-
-      .about-side {
-        width: min(220px, 100%);
-        margin-top: 1.75rem;
-      }
-    }
-  </style>
   {% unless page.hide_title %}
     <header class="post-header">
       <h1 class="post-title">
@@ -63,7 +23,7 @@ layout: default
 
         {% if page.profile %}
           <aside class="about-side">
-            <div class="profile about-profile" style="width: 170px; max-width: 100%;">
+            <div class="profile about-profile">
               {% if page.profile.image %}
                 {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
                 {% if page.profile.image_circular %}
@@ -71,7 +31,7 @@ layout: default
                 {% else %}
                   {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
                 {% endif %}
-                {% capture sizes %}(min-width: 768px) 170px, 220px{% endcapture %}
+                {% capture sizes %}(min-width: 768px) 210px, 220px{% endcapture %}
                 {%
                   include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
                   cache_bust=true

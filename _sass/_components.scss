@@ -70,7 +70,10 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-.about-profile {
+.profile.about-profile {
+  width: 210px;
+  max-width: 100%;
+
   figure {
     margin: 0;
   }
@@ -85,6 +88,7 @@ ul.task-list input[type="checkbox"] {
     margin-top: 0.85rem;
     margin-bottom: 0.85rem;
     font-family: inherit;
+    font-size: 0.9rem;
     line-height: 1.35;
 
     p {
@@ -93,31 +97,87 @@ ul.task-list input[type="checkbox"] {
     }
 
     .profile-name {
-      font-size: 1.15rem;
+      font-size: 1.1rem;
       font-weight: 600;
+    }
+
+    .profile-context {
+      color: var(--global-text-color-light);
     }
   }
 }
 
-.about-layout {
-  display: grid;
-  gap: 2rem;
-  align-items: start;
+.about-shell {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.about-columns {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 56px;
 }
 
 .about-main {
+  flex: 1 1 auto;
   min-width: 0;
+  max-width: 920px;
 }
 
-@media (min-width: 768px) {
-  .about-layout {
-    grid-template-columns: minmax(0, 1fr) minmax(180px, 230px);
-    column-gap: 3rem;
-  }
+.about-side {
+  flex: 0 0 210px;
+  width: 210px;
+}
 
-  .about-layout-no-profile {
-    grid-template-columns: minmax(0, 1fr);
+.publication-self {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.publication-venue {
+  color: var(--global-text-color-light);
+
+  em {
+    color: inherit;
   }
+}
+
+.publication-note {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.muted-meta {
+  color: var(--global-text-color-light);
+}
+
+.teaching-list {
+  display: grid;
+  row-gap: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.teaching-item {
+  display: grid;
+  grid-template-columns: 4.25rem minmax(18rem, 24rem) max-content;
+  column-gap: 0.85rem;
+  align-items: baseline;
+}
+
+.teaching-code {
+  white-space: nowrap;
+}
+
+.teaching-term {
+  white-space: nowrap;
+}
+
+.section-heading {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 576px) {
@@ -130,9 +190,28 @@ ul.task-list input[type="checkbox"] {
       }
     }
   }
+}
 
-  .about-layout .profile {
-    width: 100%;
+@media (max-width: 767.98px) {
+  .about-shell {
+    padding: 0 16px;
+  }
+
+  .about-columns {
+    display: block;
+  }
+
+  .about-side {
+    width: min(220px, 100%);
+    margin-top: 1.75rem;
+  }
+
+  .teaching-item {
+    grid-template-columns: 4.25rem minmax(0, 1fr);
+  }
+
+  .teaching-term {
+    grid-column: 2;
   }
 }
 
