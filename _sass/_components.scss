@@ -136,22 +136,16 @@ ul.task-list input[type="checkbox"] {
   text-underline-offset: 0.18em;
 }
 
-.publication-venue {
+.publication-venue,
+.publication-venue em,
+.muted-meta {
   color: var(--global-text-color-light);
-
-  em {
-    color: inherit;
-  }
 }
 
 .publication-note {
   font-size: 0.9rem;
   margin-top: 0.5rem;
   margin-bottom: 0;
-}
-
-.muted-meta {
-  color: var(--global-text-color-light);
 }
 
 .teaching-list {
